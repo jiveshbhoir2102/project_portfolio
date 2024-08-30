@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Roboto;
+    text-decoration: none;
+}
+.navbar-logo{
+    width: 14rem;
+}
+body{
+    background-color: #686D99;
+}
+.nav-item{
+    font-size: 19px;
+    margin-top: 12px;
+    font-weight: 100px;
+}
+.nav-link{
+    font-size: 20px;
+    color: #f8eded;
+}
+.nav-link:hover{
+    color: darkblue;
+}
+.btn{
+    font-size: 19px;
+    background-color: #f8eded;
+    margin-top: 22px;
+    color: black;
+    margin-bottom: 15px;
+}
+.btn:hover{
+    background-color:aqua;
+    color: black;
+    cursor: pointer;
+    box-shadow:7px 7px 23px black;
+}
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.main{
+    width: 90%;
+    height: 100vh;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+.form-group.label{
+    text-align: center;
+}
+.icon{
+    color: #f8eded;
+}
+.icon:hover{
+    color: aqua;
+    cursor: pointer;
+    box-shadow: 7px 7px 23px black;
+}
+.image{
+    border-radius: 50%;
+}
+.content h1{
+    font-size: 19px;
+}
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+}
+
+.abo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-text{
+    text-align: center;
+    top: 12px;
+    font-size: large;
+}
+.card:hover{
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px aqua;
+}
+.card1:hover{
+    cursor: pointer;
+    box-shadow: 7px 7px 23px black;
+}
+.maincar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+
+}
+.co1h2{
+    margin-bottom: 1em;
+
+}
+.contact-form form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.ip{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bt{
+    font-size: 20px;
+    background-color:#686D99;
+    margin-top: 22px;
+    margin-bottom: 15px;
+
+}
+.bt:hover{
+   background-color: aqua;
+}
+@media screen and(min-width: 375px){
+
+}
+    
+
+
